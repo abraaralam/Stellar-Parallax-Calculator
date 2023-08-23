@@ -18,17 +18,14 @@ const TextboxForm = ({ onSubmit }) => {
       className="position-relative"
       style={{ backgroundColor: "black", color: "white" }}
     >
-      {/* Main Image */}
       <img
         src={mainImage}
         alt="Main"
         className="object-fit-cover w-100"
-        style={{ height: "75vh" }} // Cover 80% of the viewport height
+        style={{ height: "75vh" }} 
       />
 
-      {/* Content Container */}
       <div className="container position-absolute top-50 start-50 translate-middle text-center">
-        {/* Logo and Title */}
         <img
           src={logoImage}
           alt="Logo"
@@ -38,7 +35,6 @@ const TextboxForm = ({ onSubmit }) => {
         <h3 className="mt-3">McDonald Institute</h3>
         <h3>Parallax Finder</h3>
 
-        {/* Form */}
         <div className="row justify-content-center mt-4">
           <div className="col-md-6">
             <input
